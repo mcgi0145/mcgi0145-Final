@@ -1,0 +1,89 @@
+.top-buffer { margin-top: 20px; }
+.bottom-buffer { margin-bottom: 20px; }
+
+
+
+// Global Typography
+h2, h3{ margin-top: 0; }
+
+
+
+
+// Callout Container
+.callout-container .col-xs-12{
+  margin-bottom: 3em;
+}
+
+
+.sidebar .btn-signup{
+  display: block;
+  width: 100%;
+}
+
+
+footer{
+  background: #111;
+  margin-top:40px;
+  color: #fff;
+}
+
+
+body {
+font-family: 'PT Serif', serif;
+font-family: 'Arvo', serif;
+    
+}
+
+.bigpic{
+    max-width: 100%;
+    margin-top: -40px;
+    
+    
+}
+
+.smallpic{
+width: 100%;      
+}
+
+li{
+    
+ list-style: none;   
+}
+
+li span {
+width: 100%;
+float: left;
+}    
+    
+.bunkers{
+ width: 100%;   
+    
+}
+
+form{
+padding-left: 10%;    
+    
+}
+
+
+
+/******
+sticky footer stuff
+*******/
+
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px; /* bottom = footer height */
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+}
+ 
